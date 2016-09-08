@@ -1,0 +1,8 @@
+*.swp
+*.docset
+*.tgz
+*.json
+.sass-cache
+!dashing.json
+build
+lists
