@@ -25,7 +25,6 @@ _check_deps() {
   which git || { echo "Must have git installed"; exit 1; }
   which wget || { echo "Must have wget installed"; exit 1; }
   which jekyll || { echo "Must have jekyll installed"; exit 1; }
-  [ -x /usr/libexec/PlistBuddy ] || { echo "Must have PlistBuddy available"; exit 1; }
 }
 
 _new_workspace() {
