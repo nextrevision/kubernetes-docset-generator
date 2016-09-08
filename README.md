@@ -10,7 +10,6 @@ Ensure the following dependencies have been installed:
 * git (`brew install git`)
 * wget (`brew install wget`)
 * jekyll (`gem install github-pages`)
-* PlistBuddy (`/usr/libexec/PlistBuddy`)
 
 ```
 VERSION=1.4 ./build.sh docset
